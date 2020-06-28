@@ -1,0 +1,72 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ffe;
+}
+
+header {
+    height: 200pt;
+
+    background-color: #c1c1c1;
+    box-shadow: inset 0px -3px 3px 0px #0003;
+}
+
+p {
+    text-indent: 1em;
+}
+
+.header_inner {
+    position: relative;
+    width: 700pt;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#score {
+    position: absolute;
+    left: -50pt;
+    top: 150pt;
+    height: 100pt;
+    width: 100pt;
+    line-height: 100pt;
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 50pt;
+    background-color: #76a757;
+    box-shadow: -1pt -1pt 3pt 0pt #0003;
+}
+
+#title {
+    position: absolute;
+    bottom: 20pt;
+
+    width: 100%;
+    text-align: center;
+    font-size: 48pt;
+    font-weight: bold;
+    border-radius: 15pt;
+    color: #ee2164;
+}
+
+
+#page {
+    margin: 60pt auto;
+    width: 1200pt;
+    height: 50pt;
+}
+
+#album_comments {
+    width: 800pt;
+    float: left;
+    font-size: 16pt;
+}
+
+#artist_albums {
+    width: 300pt;
+    padding-left: 50pt;
+    float: right;
+    border-left: 1px solid black;
+}
